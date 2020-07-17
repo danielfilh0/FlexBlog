@@ -1,0 +1,13 @@
+footer {
+  background: #2c70ff; }
+  footer .container {
+    display: flex;
+    align-items: center;
+    height: 200px; }
+    footer .container p {
+      flex: 1;
+      text-align: center;
+      font-size: 1.7em;
+      color: #122ab2; }
+
+/*# sourceMappingURL=footer.css.map */

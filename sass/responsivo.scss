@@ -1,0 +1,24 @@
+@media screen and (max-width: 800px) {
+    .super-info {
+        p, a {
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .preco {
+        padding-left: 10px;
+        padding-right: 10px;
+        .preco-item:nth-child(3) {
+            order: -2;
+        }
+        .preco-item:nth-child(2) {
+            order: -1;
+        }
+    }
+    .menu-nav-desktop {
+        display: none;
+    }
+    .menu-nav-mobile {
+        display: flex;
+    }
+}
